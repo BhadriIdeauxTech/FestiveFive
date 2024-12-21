@@ -1,0 +1,12 @@
+[Mon Sep 23 16:16:08 2024] PHP Warning:  Unknown: php_network_getaddresses: getaddrinfo for localost failed: Temporary failure in name resolution in Unknown on line 0
+[Mon Sep 23 16:16:08 2024] Failed to listen on localost:8006 (reason: php_network_getaddresses: getaddrinfo for localost failed: Temporary failure in name resolution)
+[Mon Sep 23 16:20:07 2024] PHP 8.1.2-1ubuntu2.18 Development Server (http://localhost:8006) started
+[Mon Sep 23 16:51:09 2024] 127.0.0.1:51484 Accepted
+[Mon Sep 23 16:51:09 2024] 127.0.0.1:51484 [404]: GET / - No such file or directory
+[Mon Sep 23 16:51:09 2024] 127.0.0.1:51484 Closing
+[Mon Sep 23 16:55:27 2024] 127.0.0.1:43174 Accepted
+[Mon Sep 23 16:55:27 2024] 127.0.0.1:43174 [404]: GET / - No such file or directory
+[Mon Sep 23 16:55:27 2024] 127.0.0.1:43174 Closing
+[Mon Oct 14 11:08:07 2024] 127.0.0.1:57804 Accepted
+[Mon Oct 14 11:08:09 2024] 127.0.0.1:57804 Invalid request (Unsupported SSL request)
+[Mon Oct 14 11:08:09 2024] 127.0.0.1:57804 Closing

@@ -1,0 +1,351 @@
+/* html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+:root {
+    --white: rgb(255, 255, 255);
+    --white1: rgb(246, 246, 246);
+    --white2: rgb(238, 237, 237);
+    --headerfooter: rgb(66, 66, 66);
+    --headerfooter: rgb(56 15 147);
+    --primarycolorblue: rgb(68, 159, 226);
+    --buttonhoverblue: rgb(47, 117, 166);
+    --buttontextcolor: rgba(255, 255, 255, 1);
+    --black: #000000;
+    --blue: rgba(106, 37, 255, 1);
+    /* --metalblue: #002EA0;
+    --textblue: #80E6FF; */
+}
+
+
+/* command swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 1px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* =--------------home page----------------------- */
+
+/* top round swiper */
+.rounder-image-home {
+    margin-top: 22px;
+    /* display: flex; */
+}
+
+.rounder-image-home img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 4px 4px 19px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 100%;
+    margin: auto;
+}
+
+.rounder-image-home h6 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+.rounder-image-home a :hover {
+    color: var(--primarycolorblue) !important;
+}
+
+
+@media screen and (max-width:992px) {
+    .rounder-image-home img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        box-shadow: 4px 4px 19px 0px rgba(0, 0, 0, 0.24);
+        border-radius: 100%;
+        /* display: flex; */
+        margin: auto;
+    }
+
+    .rounder-image-home h6 {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18.23px;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+        /* display: flex; */
+    }
+
+
+}
+
+.home-banner img {
+
+    width: 100%;
+
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:1050px) {
+    .home-banner img {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* carousel */
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 10px !important;
+    /* Adjust size as needed */
+    height: 10px !important;
+    /* Adjust size as needed */
+    margin: 0 5px;
+    background-color: rgba(219, 218, 218, 1) !important;
+    /* Adjust spacing as needed */
+
+}
+
+.carousel-indicators button.active {
+    background-color: var(--primarycolorblue) !important;
+    /* Change to the desired color */
+    /* border-color: blue; */
+    /* Change to the desired color */
+}
+
+/* client */
+.client-image img {
+    width: 190px;
+    height: 100px;
+    object-fit: cover;
+    /* Ensure the image covers the container */
+    display: block;
+    /* Center the image horizontally */
+    margin: auto;
+    /* Center the image vertically */
+}
+
+.home-next-button-client {
+    color: rgba(46, 46, 46, 1);
+    /* width: 1px; */
+}
+
+
+/* brands */
+.swiper-slide-brand img {
+    display: block;
+    width: 190px;
+    height: 130px;
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+
+.home-next-button-brand {
+    color: rgba(46, 46, 46, 1);
+
+}
+
+/* 
+Testimonials */
+.home-testimony {
+    display: flex;
+    /* Make the container a flex container */
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+    background:#fffaed;
+    padding: 10px;
+    border: none;
+    box-shadow:  .5px 0.5px 10px rgb(255, 234, 234);
+}
+
+.home-testimony img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* box-shadow: rgba(0, 0, 0, 0.2) -8px 8px 15px, rgba(0, 0, 0, 0.2) 8px 8px 15px; */
+    object-fit: cover;
+    /* transform: translateY(-55px); */
+
+}
+
+
+/* Custom styling for the testimonial section */
+.custom-home-testimony {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.custom-card-img {
+   width: 50px !important;
+   height: 50px !important;
+ 
+    border-radius: 50%;
+}
+
+.custom-card-title i{
+    font-size: 8px;
+    color: goldenrod;
+}
+.custom-card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.custom-stars i {
+    color: #FFD700; /* Gold color for the stars */
+}
+
+.custom-card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.custom-card-subtitle {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.custom-home-load-more {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.custom-home-load-more:hover {
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 767px) {
+    .custom-home-testimony {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-card-img {
+        margin-bottom: 10px;
+    }
+
+    .card-body {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+
+
+.testimonial-text p {
+    display: block;
+}
+
+@media only screen and (min-width:1500px) {
+    .home-banner img {
+
+        width: 100%;
+    }
+}
+
+.home-banner img {
+    width: 100% !important;
+    /* Optional: makes the image span the full width of the container */
+    height: 100% !important;
+    /* Forces the image to take the full height of the container */
+    object-fit: cover !important;
+    /* Ensures the image covers the area without distortion */
+    display: block !important;
+    /* Removes any inline spacing */
+}
+
+.banner-carosole-image {
+
+
+    width: 100%;
+    /* Makes it responsive */
+    /* max-width: 100%; */
+    /* Optional: Maximum width */
+    /* height: 80vh; */
+    /* Set desired height */
+    /* background-image: url('website_asset/image/catalogs/banner.jpg'); */
+    background-image: url('../image/catalogs/banner.jpg');
+    background-size: contain;
+    /* Ensures the image covers the container */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents image repetition */
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background: none; /* Remove default background */
+    color: #000; /* Set the icon color */
+    font-size: 24px; /* Adjust the size of the icons */
+    width: auto; /* Adjust the button width */
+    height: auto; /* Adjust the button height */
+    z-index: 10; /* Ensure buttons are above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Specific styling for the left (previous) button */
+.swiper-button-prev {
+    left: 10px; /* Position from the left */
+}
+
+/* Specific styling for the right (next) button */
+.swiper-button-next {
+    right: 10px; /* Position from the right */
+}
+
+/* Add hover effect if needed */
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: #007BFF; /* Change color on hover */
+
+
+}
+
+.swiper-button-next:after, .swiper-button-prev:after  {
+    display: none !important;
+}

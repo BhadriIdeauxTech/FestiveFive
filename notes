@@ -1,0 +1,32 @@
+   <div class="newArrivalCard">
+                            <!-- <a href="{{ url('products') }}"> -->
+                            <a href="#">
+                            <img src="{{ url('website_asset/image/rounder/keychain.jpg') }}" alt="">
+                            </a>
+                           <button class="newArrivalCardBtn">Enquiry Cart</button>
+                        </div>
+                    </div>
+
+                    
+                    <div class="swiper-slide d-flex justify-content-center align-items-center">
+                        <div class="newArrivalCard">
+                            <!-- <a href="{{ url('products') }}"> -->
+                            <a href="#">
+                                <img src="{{ url('website_asset/image/rounder/keychain.jpg') }}" alt="">
+                                <img src="{{ url('website_asset/image/rounder/wallet.jpg') }}" alt="">
+                                <img src="{{ url('website_asset/image/rounder/bags.jpg') }}" alt="">
+
+                            </a>
+                           <button class="newArrivalCardBtn">Enquiry Cart</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide d-flex justify-content-center align-items-center">
+                        <div class="newArrivalCard">
+                            <!-- <a href="{{ url('products') }}"> -->
+                            <a href="#">
+   
+
+                            </a>
+                           <button class="newArrivalCardBtn">Enquiry Cart</button>
+                        </div>
+                    </div>
